@@ -2081,7 +2081,7 @@ li.template-bullet:before {
 .services-list a > img,
 .projects-list a > img,
 .re-preload > img {
-    display: none;
+    /*display: none;*/
 }
 
 .projects-list.isotope li > a,
