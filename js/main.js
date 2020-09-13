@@ -9,7 +9,6 @@ window.odometerOptions = {
                      // use it when you're looking for something more subtle.
 };
 var map = null;
-var marker = null;
 var menu_position = null;
 jQuery(document).ready(function($){
 	//search form
@@ -44,95 +43,6 @@ jQuery(document).ready(function($){
 	else
 		$(".parallax").addClass("cover");
 
-	$(".accordion.wide").on("accordionchange", function(event, ui){
-		$("html, body").animate({scrollTop: $("#"+$(ui.newHeader).attr("id")).offset().top}, 400);
-	});
-	$(".tabs:not('.no-scroll')").on("tabsbeforeactivate", function(event, ui){
-		$("html, body").animate({scrollTop: $("#"+$(ui.newTab).children("a").attr("id")).offset().top}, 400);
-	});
-	$(".tabs").tabs({
-		event: 'change',
-		show: true,
-		create: function(){
-			$("html, body").scrollTop(0);
-		},
-		activate: function(event, ui){
-			ui.oldPanel.find("[name='submit'], [name='name'], [name='email'], [name='message']").qtip('hide');
-		}
-	});
-
-	//hashchange
-	$(window).on("hashchange", function(event){
-		var hashSplit = $.param.fragment().split("-");
-		var hashString = "";
-		for(var i=0; i<hashSplit.length-1; i++)
-			hashString = hashString + hashSplit[i] + (i+1<hashSplit.length-1 ? "-" : "");
-		if(hashSplit[0].substr(0,7)!="filter=")
-		{
-			$('.ui-accordion .ui-accordion-header#accordion-' + decodeURIComponent($.param.fragment())).trigger("change");
-			$('.ui-accordion .ui-accordion-header#accordion-' + decodeURIComponent(hashString)).trigger("change");
-		}
-		$('.tabs .ui-tabs-nav [href="#' + decodeURIComponent(hashString) + '"]').trigger("change");
-		$('.tabs .ui-tabs-nav [href="#' + decodeURIComponent($.param.fragment()) + '"]').trigger("change");
-		if(hashSplit[0].substr(0,7)!="filter=")
-			$('.tabs .ui-accordion .ui-accordion-header#accordion-' + decodeURIComponent($.param.fragment())).trigger("change");
-		$(".testimonials-list, .our-clients-list").trigger('configuration', ['debug', false, true]);
-		$(document).scroll();
-		
-		if(hashSplit[0].substr(0,7)=="comment")
-		{
-			if($(location.hash).length)
-			{
-				var offset = $(location.hash).offset();
-				$("html, body").animate({scrollTop: offset.top-10}, 400);
-			}
-		}
-		
-		// get options object from hash
-		var hashOptions = $.deparam.fragment();
-
-		if(hashSplit[0].substr(0,7)=="filter")
-		{
-			var filterClass = decodeURIComponent($.param.fragment()).substr(7, decodeURIComponent($.param.fragment()).length);
-			// apply options from hash
-			$(".isotope-filters a").removeClass("selected");
-			if($('.isotope-filters a[href="#filter-' + filterClass + '"]').length)
-				$('.isotope-filters a[href="#filter-' + filterClass + '"]').addClass("selected");
-			else
-				$(".isotope-filters li:first a").addClass("selected");
-			
-			$(".isotope").isotope({filter: (filterClass!="*" ? "." : "") + filterClass});
-		}
-	}).trigger("hashchange");
-	
-	$('body.dont-scroll').on("touchmove", {}, function(event){
-	  event.preventDefault();
-	});
-	
-	if($("#map").length)
-	{
-		//google map
-		var coordinate = new google.maps.LatLng(51.112265,17.033787);
-		var mapOptions = {
-			zoom: 16,
-			center: coordinate,
-			mapTypeId: google.maps.MapTypeId.ROADMAP,
-			streetViewControl: false,
-			mapTypeControl: false,
-			scrollwheel: parseInt($("#map").data("scroll-wheel"), 10),
-			draggable: parseInt($("#map").data("draggable"), 10),
-			styles: [ { "featureType": "water", "elementType": "geometry", "stylers": [ { "color": "#8ccaf1" } ] },{ "featureType": "poi", "stylers": [ { "visibility": "off" } ] },{ "featureType": "transit", "stylers": [ { "visibility": "off" } ] },{ "featureType": "water", "elementType": "labels", "stylers": [ { "color": "#ffffff" }, { "visibility": "simplified" } ] } ]
-		};
-		
-		
-		map = new google.maps.Map(document.getElementById("map"),mapOptions);
-		marker = new google.maps.Marker({
-			position: new google.maps.LatLng(51.112265,17.033787),
-			map: map,
-			icon: new google.maps.MarkerImage("images/map_pointer.png", new google.maps.Size(38, 48), null, new google.maps.Point(18, 48))
-		});
-	}
-	
 	//window resize
 	function windowResize()
 	{
@@ -174,20 +84,6 @@ jQuery(document).ready(function($){
 					wrapper.css({"position": "static", "bottom": "auto", "top": "auto", "width": "auto"});
 			});
 		}
-		$(".our-clients-list").each(function(){
-			var self = $(this);
-			self.trigger("configuration", {
-				items: {
-					visible: ($(".header").width()>750 ? 6 : ($(".header").width()>462 ? 4 : 2))
-				},
-				scroll: {
-					items: ($(".header").width()>750 ? 6 : ($(".header").width()>462 ? 4 : 2))
-				},
-				pagination: {
-					items: ($(".header").width()>750 ? 6 : ($(".header").width()>462 ? 4 : 2))
-				}
-			});
-		});
 		if($(".header").width()>300)
 		{
 			if(!$(".header-top-bar").is(":visible"))
@@ -201,154 +97,6 @@ jQuery(document).ready(function($){
 	$("a[href='#top']").on("click", function() {
 		$("html, body").animate({scrollTop: 0}, "slow");
 		return false;
-	});
-	
-	//hint
-	$(".comment-form input[type='text'], .contact-form input[type='text'], .comment-form textarea, .contact-form textarea, .search input[type='text'], .search_form input[type='text'], .cost-calculator-container input[placeholder]").hint();
-	
-	//reply scroll
-	$(".comment-details .more").on("click", function(event){
-		event.preventDefault();
-		var offset = $("#comment-form").offset();
-		$("html, body").animate({scrollTop: offset.top-90}, 400);
-		$("#cancel-comment").css('display', 'inline');
-	});
-	
-	//cancel comment button
-	$("#cancel-comment").on("click", function(event){
-		event.preventDefault();
-		$(this).css('display', 'none');
-	});
-	
-	//fancybox
-	$(".prettyPhoto").prettyPhoto({
-		show_title: false,
-		slideshow: 3000,
-		overlay_gallery: true,
-		social_tools: ''
-	});
-	
-	//contact form
-	if($(".contact-form").length)
-	{
-		$(".contact-form").each(function(){
-			$(this)[0].reset();
-		});
-	}
-	$(".contact-form").submit(function(event){
-		event.preventDefault();
-		var data = $(this).serializeArray();
-		var self = $(this);
-		//if($(this).find(".total-cost").length)
-		//	data.push({name: 'total-cost', value: $(this).find(".total-cost").val()});
-		self.find(".block").block({
-			message: false,
-			overlayCSS: {
-				opacity:'0.3',
-				"backgroundColor": "#FFF"
-			}
-		});
-		
-		$.ajax({
-			url: self.attr("action"),
-			data: data,
-			type: "post",
-			dataType: "json",
-			success: function(json){
-				self.find("[name='submit'], [name='name'], [name='email'], [name='message']").qtip('destroy');
-				if(typeof(json.isOk)!="undefined" && json.isOk)
-				{
-					if(typeof(json.submit_message)!="undefined" && json.submit_message!="")
-					{
-						self.find("[name='submit']").qtip(
-						{
-							style: {
-								classes: 'ui-tooltip-success'
-							},
-							content: { 
-								text: json.submit_message 
-							},
-							position: { 
-								my: "right center",
-								at: "left center" 
-							}
-						}).qtip('show');
-						self[0].reset();
-						self.find(".cost-slider-input").trigger("change");
-						self.find(".cost-dropdown").selectmenu("refresh");
-						self.find("input[type='text'], textarea").trigger("focus").trigger("blur");
-					}
-				}
-				else
-				{
-					if(typeof(json.submit_message)!="undefined" && json.submit_message!="")
-					{
-						self.find("[name='submit']").qtip(
-						{
-							style: {
-								classes: 'ui-tooltip-error'
-							},
-							content: { 
-								text: json.submit_message 
-							},
-							position: { 
-								my: "right center",
-								at: "left center" 
-							}
-						}).qtip('show');
-					}
-					if(typeof(json.error_name)!="undefined" && json.error_name!="")
-					{
-						self.find("[name='name']").qtip(
-						{
-							style: {
-								classes: 'ui-tooltip-error'
-							},
-							content: { 
-								text: json.error_name 
-							},
-							position: { 
-								my: "bottom center",
-								at: "top center" 
-							}
-						}).qtip('show');
-					}
-					if(typeof(json.error_email)!="undefined" && json.error_email!="")
-					{
-						self.find("[name='email']").qtip(
-						{
-							style: {
-								classes: 'ui-tooltip-error'
-							},
-							content: { 
-								text: json.error_email 
-							},
-							position: { 
-								my: "bottom center",
-								at: "top center" 
-							}
-						}).qtip('show');
-					}
-					if(typeof(json.error_message)!="undefined" && json.error_message!="")
-					{
-						self.find("[name='message']").qtip(
-						{
-							style: {
-								classes: 'ui-tooltip-error'
-							},
-							content: { 
-								text: json.error_message 
-							},
-							position: { 
-								my: "bottom center",
-								at: "top center" 
-							}
-						}).qtip('show');
-					}
-				}
-				self.find(".block").unblock();
-			}
-		});
 	});
 
 	if($(".header-container").hasClass("sticky"))
