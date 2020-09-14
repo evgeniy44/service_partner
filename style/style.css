@@ -1,4 +1,28 @@
 /* --- general --- */
+
+.proposition-container {
+    padding: 2px 0 3px;
+}
+
+body {
+    background: #ffbfbe;
+}
+
+.proposition {
+    text-decoration: none;
+    outline: none;
+    display: block;
+    padding: 10px 30px;
+    margin: 10px 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #fe6637;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fe6637;
+    transition: .2s ease-in-out;
+}
+
 img {
     vertical-align: middle;
 }
