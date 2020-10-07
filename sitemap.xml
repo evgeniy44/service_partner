@@ -5,22 +5,25 @@
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>http://servicepartner.cn.ua/statii.html</loc>
+        <loc>https://servicepartner.cn.ua/statii.html</loc>
     </url>
     <url>
-        <loc>http://servicepartner.cn.ua/uslugi.html</loc>
+        <loc>https://servicepartner.cn.ua/uslugi.html</loc>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>http://servicepartner.cn.ua/contact.html</loc>
+        <loc>https://servicepartner.cn.ua/contact.html</loc>
     </url>
     <url>
-        <loc>http://servicepartner.cn.ua/kak_rabotaet_lazerniy_printer.html</loc>
+        <loc>https://servicepartner.cn.ua/kak_rabotaet_lazerniy_printer.html</loc>
     </url>
     <url>
-        <loc>http://servicepartner.cn.ua/zapravka_lazernogo_kartridga.html</loc>
+        <loc>https://servicepartner.cn.ua/zapravka_lazernogo_kartridga.html</loc>
     </url>
     <url>
-        <loc>http://servicepartner.cn.ua/zapravka_canon_i_hp.html</loc>
+        <loc>https://servicepartner.cn.ua/zapravka_canon_i_hp.html</loc>
+    </url>
+    <url>
+        <loc>https://servicepartner.cn.ua/prodag.html</loc>
     </url>
 </urlset>
