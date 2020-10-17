@@ -108,6 +108,30 @@ p.description {
     text-indent: 20px;
 }
 
+ul.description {
+    font-family: 'Raleway';
+    line-height: 26px;
+    padding: 0;
+    margin-top: 20px;
+    text-indent: 20px;
+    margin-left: 20px;
+    list-style-position: inside;
+    text-align: justify;
+    list-style-type: initial;
+}
+
+ol.description {
+    font-family: 'Raleway';
+    line-height: 26px;
+    padding: 0;
+    margin-top: 20px;
+    text-indent: 20px;
+    margin-left: 20px;
+    list-style-position: inside;
+    text-align: justify;
+    list-style-type: initial;
+}
+
 p.description.t1 {
     font-family: 'Raleway';
     font-size: 14px;
@@ -352,13 +376,13 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 }
 
 h1 {
-    font-size: 22px;
+    font-size: 29px;
     line-height: 34px;
 }
 
 h2 {
-    font-size: 29px;
-    line-height: 40px;
+    font-size: 23px;
+    line-height: 30px;
 }
 
 
@@ -500,7 +524,7 @@ h6.box-header:after {
 
 .page-header-left {
     float: left;
-    width: 400px;
+    width: 500px;
 }
 
 .page-header-right {
@@ -1106,97 +1130,6 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
     margin-top: 34px;
 }
 
-/* --- testimonials --- */
-.testimonials-container {
-    position: relative;
-}
-
-.testimonials-container .caroufredsel_wrapper_testimonials {
-    width: 1050px !important;
-    left: 60px !important;
-}
-
-.testimonials-list li {
-    float: left;
-    width: 1050px;
-    text-align: center;
-}
-
-.testimonials-list li:before {
-    display: block;
-    width: 48px;
-    font-size: 48px;
-    margin-left: auto;
-    margin-right: auto;
-    color: #FFF;
-    border: 1px solid #E2E6E7;
-    padding: 19px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-}
-
-.testimonials-list .ornament {
-    position: relative;
-    width: 1px;
-    height: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 13px;
-    background: #E2E6E7;
-}
-
-.testimonials-list .ornament:after {
-    position: absolute;
-    content: "";
-    border: 1px solid #E2E6E7;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    width: 11px;
-    height: 11px;
-    left: -6px;
-    bottom: -13px;
-}
-
-.testimonials-list p {
-    font-family: 'Raleway';
-    font-weight: 300;
-    font-size: 21px;
-    color: #FFFFFF;
-    line-height: 36px;
-    padding: 29px 50px 0;
-}
-
-.testimonials-list p:after {
-    display: block;
-    content: "";
-    background: #F4BC16;
-    width: 40px;
-    height: 2px;
-    margin-top: 30px;
-    margin-bottom: 34px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.testimonials-list .author {
-    font-family: 'Raleway';
-    font-weight: 500;
-    font-size: 13px;
-    color: #FFF;
-    line-height: 20px;
-}
-
-.testimonials-list .author-details {
-    margin-top: 7px;
-    font-family: 'Raleway';
-    font-weight: 500;
-    font-size: 11px;
-    color: #FFF;
-    line-height: 16px;
-    letter-spacing: 1px;
-}
 
 /* --- our clients --- */
 .our-clients-list-container {
@@ -1494,40 +1427,6 @@ span.odometer.number:after {
     margin-top: 24px;
 }
 
-/* --- taxonomies --- */
-.taxonomies li {
-    float: left;
-    margin-right: 7px;
-    margin-bottom: 7px;
-}
-
-.taxonomies a {
-    display: block;
-    border: 1px solid #E2E6E7;
-    color: #999;
-    line-height: 16px;
-    letter-spacing: 1px;
-    font-family: 'Raleway';
-    font-size: 11px;
-    font-weight: 500;
-    padding: 10px 12px;
-    text-align: left;
-}
-
-.taxonomies a:hover {
-    color: #FFF;
-    background: #F4BC16;
-    border-color: #F4BC16;
-}
-
-.taxonomies.full-width li {
-    width: 100%;
-    margin-right: 0;
-}
-
-.taxonomies a span {
-    float: right;
-}
 
 /* --- buttons --- */
 .buttons li {
