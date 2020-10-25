@@ -21,6 +21,14 @@ body {
     }
 }
 
+.services-list-item {
+    text-align: center;
+}
+
+.services-list-item img {
+    width: 95%;
+}
+
 .proposition {
     text-decoration: none;
     outline: none;

@@ -57,7 +57,9 @@
             $("#copyright").load("copyright.html");
             $("#why-us").load("why-us.html");
             $("#partners").load("partners.html");
-            $("#header").load("header.html");
+            $("#header").load("header.html", function() {
+                $('#header-index').attr("class", "selected");
+            });
             $("#proposition-container").load("proposition.html");
         });
     </script>
@@ -132,15 +134,15 @@
                 <div id="main_page_content" class="row full-width gray page-padding-top-section">
                     <div class="row">
                         <ul class="services-list clearfix page-margin-top">
-                            <li>
-                                <img src="images/samples/390x260/image_01.jpg" alt="Заправка картриджей"/>
+                            <li class="services-list-item">
+                                <img src="images/samples/390x260/image_01.jpg" alt="Заправка картриджей" align="middle"/>
                                 <h4 class="box-header">Заправка картриджей</h4>
                             </li>
-                            <li>
+                            <li class="services-list-item">
                                 <img src="images/samples/390x260/image_02.jpg" alt="Ремонт принтеров и МФУ"/>
                                 <h4 class="box-header">Ремонт принтеров и МФУ</h4>
                             </li>
-                            <li>
+                            <li class="services-list-item">
                                 <img src="images/samples/390x260/image_03.jpg" alt="Ремонт компьютерной техники"/>
                                 <h4 class="box-header">Ремонт компьютерной техники</h4>
                             </li>

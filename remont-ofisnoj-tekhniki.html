@@ -55,7 +55,9 @@
             $("#header-top-bar-container").load("top_header.html");
             $("#copyright").load("copyright.html");
             $("#why-us").load("why-us.html");
-            $("#header").load("header.html");
+            $("#header").load("header.html", function() {
+                $('#header-uslugi').attr("class", "selected");
+            });
             $("#proposition-container").load("proposition.html");
         });
     </script>
