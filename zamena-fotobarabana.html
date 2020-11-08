@@ -51,12 +51,7 @@
 
     <script>
         $(function () {
-            $("#header-top-bar-container").load("top_header.html");
-            $("#copyright").load("copyright.html");
-            $("#why-us").load("why-us.html");
-            $("#header").load("header.html", function() {
-                $('#header-uslugi').attr("class", "selected");
-            });
+            $('#header-uslugi').attr("class", "selected");
             $("#proposition-container").load("proposition.html");
         });
     </script>
@@ -64,10 +59,121 @@
 </head>
 <body>
 <div class="site-container">
-    <div id="header-top-bar-container" class="header-top-bar-container clearfix"></div>
+    <div id="header-top-bar-container" class="header-top-bar-container clearfix"><div class="header-top-bar">
+        <ul class="contact-details clearfix">
+            <li class="template-phone">
+                <a href="tel:+38068404272">(068)-40-42-762</a> или <a href="tel:+380990021962">(099)-00-21-962</a>
+            </li>
+            <li class="template-mail">
+                <a href="mailto:servicepartnerche@gmail.com">servicepartnerche@gmail.com</a>
+            </li>
+            <li class="template-clock">
+                Пон - Чет: 09.00 - 18.00\
+                Пят: 09:00-17.00\
+                Суб: 11.00-14.00
+            </li>
+        </ul>
+        <ul class="social-icons">
+            <li>
+                <a target="_blank" href="https://www.facebook.com/Service-Partner-102331748193651" class="social-facebook"
+                   title="facebook"></a>
+            </li>
+        </ul>
+    </div>
+        <a href="#" class="header-toggle template-arrow-up"></a>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173068375-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date());
+
+            gtag('config', 'UA-173068375-1');
+        </script></div>
     <div id="proposition-container"></div>
     <div class="header-container">
-        <div id="header"></div>
+        <div id="header"><div class="vertical-align-table column-1-1">
+            <div class="header clearfix">
+                <div class="logo vertical-align-cell">
+                    <h1>
+                        <a href="#"><img src="images/logo.jpg"/></a>
+                    </h1>
+                </div>
+                <a href="#" class="mobile-menu-switch vertical-align-cell">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </a>
+                <div class="menu-container clearfix vertical-align-cell">
+                    <nav>
+                        <ul class="sf-menu">
+                            <li id="header-index">
+                                <a href="/" title="Home">
+                                    Главная
+                                </a>
+                            </li>
+                            <li id="header-statii">
+                                <a href="statii.html">
+                                    Статьи
+                                </a>
+                            </li>
+                            <li id="header-uslugi">
+                                <a href="uslugi.html">
+                                    Услуги и цена
+                                </a>
+                            </li>
+                            <li id="header-prodag">
+                                <a href="prodag.html">
+                                    Продажа картриджей
+                                </a>
+                            </li>
+                            <li id="header-contact" class="left-flyout">
+                                <a href="contact.html">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="mobile-menu-container">
+                        <div class="mobile-menu-divider"></div>
+                        <nav>
+                            <ul class="mobile-menu">
+                                <li class="selected">
+                                    <a href="/">
+                                        Главная
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="statii.html">
+                                        Статьи
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="uslugi.html">
+                                        Услуги и цена
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="prodag.html">
+                                        Продажа картриджей
+                                    </a>
+                                </li>
+                                <li class="left-flyout">
+                                    <a href="contact.html">
+                                        Контакты
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div></div>
     </div>
     <div class="theme-page padding-bottom-66">
         <div class="row gray full-width page-header vertical-align-table">
@@ -107,7 +213,7 @@
 }
 </script>
         <div class="clearfix">
-            <div class="row margin-top-70">
+            <div class="row margin-top-20">
                 <div class="column column-1-1">
                     <img src='images/seo/2/14_zamena_fotobarabana.jpg' width="570" height="380" alt='замена фотобарабана' title='замена барабана картриджа'
                          style="display: block;float:left;margin: 0px 20px 20px 0px;">
@@ -116,7 +222,7 @@
 <h2>Замена фотобарабана в картридже: степень износа и устранение проблемы</h2>
 <p class="description t1">Элемент имеет определенный ресурс, который исчисляется количеством напечатанных листов с момента эксплуатации до проявления признаков выхода из строя. Если качество изображения заметно ухудшается - пришло время заменить фотобарабан.</p>
 <p class="description t1">Степень износа зависит от таких факторов:</p>
-<ul>
+<ul class="description">
 <li>Низкое качество заправляемого тонера. Пытаясь сэкономить, некоторые пользователи заполняют картриджи тонером низкого качества. Что приводит к быстрой деформации поверхности элемента. Хорошее красящее средство помогут подобрать только специалисты, они же и произведут корректную его заправку.</li>
 <li>В каком состоянии другие детали принтера. Исправность фотобарабана зависит также от технического состояния роликов, ракеля. Часто их поломки связаны с небрежной эксплуатацией агрегата, попаданием посторонних предметов внутрь. В итоге неисправные узлы повреждают барабан и нужен будет <a href="https://servicepartner.cn.ua/remont-printerov.html">ремонт принтеров</a>.</li>
 <li>Повторное использование бумаги. Печатая на противоположной стороне, состояние фотобарабана ухудшается. При прохождении бумаги через узел печати, старый порошок осыпается, попадая на поверхность элемента.</li>
@@ -129,8 +235,43 @@
             </div>
         </div>
     </div>
-    <div id="why-us"></div>
-    <div id="copyright"></div>
+    <div id="why-us"><div class="row yellow full-width padding-top-bottom-30">
+        <div class="row">
+            <div class="column column-1-3">
+                <ul class="contact-details-list">
+                    <li class="sl-small-wrench ">
+                        <p>
+                            Гарантия на все виды работ.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="column column-1-3">
+                <ul class="contact-details-list">
+                    <li class="sl-small-wallet">
+                        <p>Лучшая цена в Чернигове.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="column column-1-3">
+                <ul class="contact-details-list">
+                    <li class="sl-small-clock">
+                        <p>
+                            Быстрое обслуживание.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div></div>
+    <div id="copyright"><div class="row align-center padding-top-bottom-30">
+    <span class="copyright">
+        © Copyright 2020.
+        <a href="http://servicepartner.cn.ua" title="Заправка картриджей,ремонт принтеров." target="_blank">
+            Service partner.
+        </a>
+    </span>
+    </div></div>
 </div>
 <a href="#top" class="scroll-top animated-element template-arrow-up" title="Scroll to top"></a>
 
