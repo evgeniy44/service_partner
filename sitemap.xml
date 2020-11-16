@@ -1,135 +1,270 @@
 <?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://servicepartner.cn.ua/zapravka-kartridzhej-epson.html</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <loc>https://servicepartner.cn.ua/</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/samples/390x260/image_01.jpg</image:loc>
+        <image:title>Заправка картриджей</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/samples/390x260/image_02.jpg</image:loc>
+        <image:title>Ремонт принтеров и МФУ</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/samples/390x260/image_03.jpg</image:loc>
+        <image:title>Ремонт компьютерной техники</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://servicepartner.cn.ua/contact.html</loc>
+  </url>
+  <url>
+    <loc>https://servicepartner.cn.ua/statii.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/samples/480x320/image_01.jpg</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/samples/480x320/image_02.jpg</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/samples/480x320/image_04.jpg</image:loc>
+        <image:title></image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://servicepartner.cn.ua/uslugi.html</loc>
+  </url>
+  <url>
+    <loc>https://servicepartner.cn.ua/remont-printerov-xerox.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/2/7_remont_xerox.jpg</image:loc>
+        <image:title>ремонт принтеров xerox</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://servicepartner.cn.ua/remont-printerov-lexmark.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/2/10_remont_lexmark.jpg</image:loc>
+        <image:title>ремонт принтеров lexmark</image:title>
+      </image:image>
   </url>
   <url>
     <loc>https://servicepartner.cn.ua/remont-ofisnoj-tekhniki.html</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/article_13_no-min.jpg</image:loc>
+        <image:title>ремонт офисной техники</image:title>
+      </image:image>
   </url>
   <url>
-    <loc>https://servicepartner.cn.ua/zapravka-printerov.html</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <loc>https://servicepartner.cn.ua/remont-lazernykh-printerov.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/2/1_remont_lazernuh_printerov.jpg</image:loc>
+        <image:title>лазерный принтер ремонт</image:title>
+      </image:image>
   </url>
   <url>
-    <loc>https://servicepartner.cn.ua/zapravka-kartridzhej-xerox.html</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://servicepartner.cn.ua/zapravka-kartridzhej-konica-minolta.html</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://servicepartner.cn.ua/zapravka-kartridzhej-kyocera.html</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <loc>https://servicepartner.cn.ua/remont-printerov-kyocera.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/2/12_remont_kyocera.jpeg</image:loc>
+        <image:title>ремонт принтеров kyocera</image:title>
+      </image:image>
   </url>
   <url>
     <loc>https://servicepartner.cn.ua/zapravka-kartridzhej-brother.html</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/article_7-min.jpg</image:loc>
+        <image:title>заправка картриджей brother</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://servicepartner.cn.ua/zapravka-kartridzhej-epson.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/article_9_no-min.jpg</image:loc>
+        <image:title>заправка картриджей epson</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://servicepartner.cn.ua/zapravka-printerov.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/article_2-min.jpg</image:loc>
+        <image:title>заправить лазерный принтер</image:title>
+      </image:image>
   </url>
   <url>
     <loc>https://servicepartner.cn.ua/zapravka-kartridzhej-canon.html</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/article_6-min.jpg</image:loc>
+        <image:title>заправка картриджей canon</image:title>
+      </image:image>
   </url>
   <url>
     <loc>https://servicepartner.cn.ua/zapravka-kartridzhej-samsung.html</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/article_4-min.jpg</image:loc>
+        <image:title>заправка картриджей samsung</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://servicepartner.cn.ua/remont-printerov-hp.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/2/5_remont_hp.jpg</image:loc>
+        <image:title>ремонт принтеров hp</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://servicepartner.cn.ua/remont-printerov-ricoh.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/2/13_remont_ricoh.jpg</image:loc>
+        <image:title>ремонт принтеров ricoh</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://servicepartner.cn.ua/zapravka-kartridzhej-xerox.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/article_5-min.jpg</image:loc>
+        <image:title>заправка картриджей xerox</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://servicepartner.cn.ua/remont-mfu.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/2/3_remont_mfu.png</image:loc>
+        <image:title>ремонт мфу</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://servicepartner.cn.ua/remont-printerov-epson.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/2/11_remont_epson.jpg</image:loc>
+        <image:title>ремонт принтеров epson</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://servicepartner.cn.ua/kak_rabotaet_lazerniy_printer.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/samples/570x380/image_01.jpg</image:loc>
+        <image:title>Как работает лазерный принтер Чернигов</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://servicepartner.cn.ua/remont-3d-printerov.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/2/4_remont_3d_printerov.jpg</image:loc>
+        <image:title>ремонт 3d принтеров</image:title>
+      </image:image>
   </url>
   <url>
     <loc>https://servicepartner.cn.ua/zapravka-kartridzhej-hp.html</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/article_3-min.jpg</image:loc>
+        <image:title>заправка картриджей hp</image:title>
+      </image:image>
   </url>
   <url>
-    <loc>https://servicepartner.cn.ua/vosstanovlenie-kartridzhej.html</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <loc>https://servicepartner.cn.ua/remont-printerov-samsung.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/2/6_remont_samsung.jpg</image:loc>
+        <image:title>ремонт принтеров samsung</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://servicepartner.cn.ua/remont-printerov-canon.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/2/8_remont_canon.jpg</image:loc>
+        <image:title>ремонт принтеров canon</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://servicepartner.cn.ua/zamena-fotobarabana.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/2/14_zamena_fotobarabana.jpg</image:loc>
+        <image:title>замена фотобарабана</image:title>
+      </image:image>
   </url>
   <url>
     <loc>https://servicepartner.cn.ua/zapravka-kartridzhej-ricoh.html</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/article_12_no-min.jpg</image:loc>
+        <image:title>заправка картриджей ricoh</image:title>
+      </image:image>
   </url>
   <url>
-    <loc>https://servicepartner.cn.ua/remont-printerov.html</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <loc>https://servicepartner.cn.ua/vosstanovlenie-kartridzhej.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/samples/390x260/image_01.jpg</image:loc>
+        <image:title>заправить лазерный принтер</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://servicepartner.cn.ua/zamena-magnitnogo-vala.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/2/15_zamena_magnitnogo_vala.jpg</image:loc>
+        <image:title>замена магнитного вала</image:title>
+      </image:image>
   </url>
   <url>
     <loc>https://servicepartner.cn.ua/remont-kartridzhej.html</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/article_14-min.jpg</image:loc>
+        <image:title>ремонт картриджей</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://servicepartner.cn.ua/zapravka_canon_i_hp.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/samples/570x380/image_04.jpg</image:loc>
+        <image:title>Заправка картриджей Canon и HP</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://servicepartner.cn.ua/remont-printerov.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/article_15_no-min.png</image:loc>
+        <image:title>ремонт принтеров</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://servicepartner.cn.ua/remont-strujnykh-printerov.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/2/2_remont_struynih_printerov.jpg</image:loc>
+        <image:title>ремонт принтеров струйных</image:title>
+      </image:image>
   </url>
   <url>
     <loc>https://servicepartner.cn.ua/zapravka-kartridzhej-lexmark.html</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-    <url>
-    <loc>https://servicepartner.cn.ua/statii.html</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-      <url>
-    <loc>https://servicepartner.cn.ua/contact.html</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-        <url>
-    <loc>https://servicepartner.cn.ua/prodag.html</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-      <url>
-    <loc>https://servicepartner.cn.ua/kak_rabotaet_lazerniy_printer.html</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-        <url>
-    <loc>https://servicepartner.cn.ua/zapravka_lazernogo_kartridga.html</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-          <url>
-    <loc>https://servicepartner.cn.ua/zapravka_canon_i_hp.html</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/article_8_no-min.jpg</image:loc>
+        <image:title>заправка картриджей lexmark</image:title>
+      </image:image>
   </url>
   <url>
-    <loc>https://servicepartner.cn.ua/</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <loc>https://servicepartner.cn.ua/zapravka_lazernogo_kartridga.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/samples/570x380/image_02.jpg</image:loc>
+        <image:title>Заправка лазерного картриджа в Чернигове</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://servicepartner.cn.ua/zapravka-kartridzhej-konica-minolta.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/article_11_no-min.jpg</image:loc>
+        <image:title>заправка картриджей konica-minolta</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://servicepartner.cn.ua/remont-printerov-brother.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/2/9_remont_brother.jpg</image:loc>
+        <image:title>ремонт принтеров brother</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://servicepartner.cn.ua/zapravka-kartridzhej-kyocera.html</loc>
+      <image:image>
+        <image:loc>https://servicepartner.cn.ua/images/seo/article_10_no-min.png</image:loc>
+        <image:title>заправка картриджей kyocera</image:title>
+      </image:image>
   </url>
 </urlset>
