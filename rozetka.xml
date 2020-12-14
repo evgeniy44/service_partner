@@ -14,52 +14,89 @@
 
         <offers>
             <offer id="10001" available="true">
+                <name>Картридж Canon 703 совместимый</name>
+                <price>399</price>
+                <currencyId>UAH</currencyId>
+                <categoryId>1</categoryId>
+
+                <picture>https://servicepartner.cn.ua/images/rozetka/canon_703-1.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/canon_703-2.jpg</picture>
+
+
+                <vendor>Service Partner</vendor>
+                <stock_quantity>10</stock_quantity>
+
+                <description><![CDATA[
+                    <p>Картриджы <b>Service Partner</b> собраны из надежных материалов.</p><p>При аккуратном использовании износ деталей начинается после 4-5 заправки</p>]]></description>
+                <param name="Совместимые модели картриджей">Canon 703, HP Q2612A</param>
+                <param name="Ресурс печати">1000 страниц</param><!--todo-->
+                <param name="Совместимые модели притеров">Черный</param><!--todo-->
+            </offer>
+
+            <offer id="10002" available="true">
+                <name>Картридж Canon 737 совместимый</name>
+                <price>478</price>
+                <currencyId>UAH</currencyId>
+                <categoryId>1</categoryId>
+
+                <picture>https://servicepartner.cn.ua/images/rozetka/canon_737-1.jpg</picture>
+
+                <vendor>Service Partner</vendor>
+                <stock_quantity>10</stock_quantity>
+
+                <description><![CDATA[
+<p>Картриджы <b>Service Partner</b> собраны из надежных материалов.</p><p>При аккуратном использовании износ деталей начинается после 4-5 заправки</p>]]></description>
+
+
+                <param name="Совместимые модели картриджей">Canon 737, HP CF283A</param>
+                <param name="Ресурс печати">1000 страниц</param><!--todo-->
+                <param name="Совместимые модели притеров">Черный</param><!--todo-->
+            </offer>
+
+            <offer id="10003" available="true">
+                <name>Картридж Samsung MLT-D117S/Samsung MLT-D108S/XEROX Phaser 3117 совместимый</name>
                 <price>4499</price> <!--TODO-->
                 <currencyId>UAH</currencyId>
                 <categoryId>1</categoryId>
 
-<!--                TODO-->
+                <!--                TODO-->
                 <picture>http://abc.ua/upload/iblock/a53/a5391cddb40be91705.jpg</picture>
                 <picture>http://abc.ua/upload/iblock/9d0/9d06805d219fb525fc.jpg</picture>
-                <picture>http://abc.ua/upload/iblock/93d/93de38537e1cc1f8f2.jpg</picture>
 
 
-
-                <vendor>Abc clothes</vendor>
-                <stock_quantity>100</stock_quantity>
-                <name>Куртка Abc clothes Scoperandom-HH 146 см Черная (1323280942900)</name>
-                <description><![CDATA[
-<p>Одежда<b>Abc clothes</b> способствует развитию функций головного мозга за счет поощрения мелкой моторики.</p><p>В Abc <b>New Collection</b> будет особенно удобно лазать, прыгать, бегать.</p><p>За счет своей универсальноcти и многофункциональности, <b>Abc clothes</b> отлично подходит:</p><ul><li><b>Для весны</b></li><li><b>Для лета</b></li><li><b>Для ранней осени</b></li></ul><p><b>Состав:</b>• 92% полиэстер, 8%эластан, не токсичность подтверждена лабораторно.</p><p><b>Вес:</b> 305 г</p>]]></description>
-                <param name="Рост">146 см</param>
-                <param name="Сезон">Весна-Осень</param>
-                <param name="Цвет">Черный</param>
-                <param name="Стиль">Повседневный (casual)</param>
-                <param name="Особенности">Модель с капюшоном</param>
-                <param name="Состав">92% полиэстер, 8% эластан</param>
-                <param name="Страна производитель товара">Эстония</param>
-                <param name="Артикул">58265468</param>
-            </offer>
-
-            <offer id="42576" available="true">
-                <url>http://abc.ua/catalog/aromadifuzori/greanleaf-heaven.html</url>
-                <price>22.50</price>
-                <price_old>25.80</price_old>
-                <currencyId>USD</currencyId>
-                <categoryId>245</categoryId>
-                <picture>http://abc.ua/upload/images/detailed/99/GL_signatureRD-haven.jpg</picture>
-                <vendor>Greenleaf Haven</vendor>
+                <vendor>Service Partner</vendor>
                 <stock_quantity>10</stock_quantity>
-                <name>Аромадиффузор Greenleaf Haven Морская Гавань 118 мл</name>
+
                 <description><![CDATA[
-<p>Освежающий аромат морского берега, смешанный запахами лаванды, цветками солнечного жасмина, вместе с оттенками нежного древесного янтаря и сладкого мускуса.</p><p>Срок действия аромата до 4 месяцев.</p><p>Прозрачная стеклянная ромбовая ваза-распылитель запакована в стильную упаковку, включая набор камышовых тростинок, вместе с 133 мл. аромамасла внутри. Освежает и ароматизирует любое комнатное пространство.</p><p>Сделано в США.</p>]]></description>
-                <param name="Объем, мл" paramid="140098" valueid="2194404">118</param>
-                <param name="Цвет" paramid="140189" valueid="1641734">Прозрачный</param>
-                <param name="Аромат" paramid="140133" valueid="1360568">Морская свежесть</param>
-                <param name="Наличие аромата" paramid="143288" valueid="1346424">С ароматом</param>
-                <param name="Страна-производитель товара" paramid="98900" valueid="619903">США</param>
-                <param name="Материал" paramid="142168"><![CDATA[ Стекло/Керамика ]]></param>
+<p>Картриджы <b>Service Partner</b> собраны из надежных материалов.</p><p>При аккуратном использовании износ деталей начинается после 4-5 заправки</p>]]></description>
+
+
+                <param name="Совместимые модели картриджей">Samsung MLT-D117S, Samsung MLT-D108S, XEROX Phaser 3117</param>
+                <param name="Ресурс печати">1000 страниц</param><!--todo-->
+                <param name="Совместимые модели притеров">Черный</param><!--todo-->
             </offer>
 
+            <offer id="10003" available="true">
+                <price>4499</price> <!--TODO-->
+                <currencyId>UAH</currencyId>
+                <categoryId>1</categoryId>
+
+                <!--                TODO-->
+                <picture>http://abc.ua/upload/iblock/a53/a5391cddb40be91705.jpg</picture>
+                <picture>http://abc.ua/upload/iblock/9d0/9d06805d219fb525fc.jpg</picture>
+
+
+                <vendor>Service Partner</vendor>
+                <stock_quantity>10</stock_quantity>
+                <name>Картридж Brother TN-1095 совместимый</name>
+                <description><![CDATA[
+<p>Картриджы <b>Service Partner</b> собраны из надежных материалов.</p><p>При аккуратном использовании износ деталей начинается после 4-5 заправки</p>]]></description>
+
+
+                <param name="Совместимые модели картриджей">Brother TN-1095</param>
+                <param name="Ресурс печати">1000 страниц</param><!--todo-->
+                <param name="Совместимые модели притеров">Черный</param><!--todo-->
+            </offer>
         </offers>
     </shop>
 </yml_catalog>
