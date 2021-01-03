@@ -15,12 +15,15 @@
         <offers>
             <offer id="10001" available="true">
                 <name>Картридж Canon 703 совместимый</name>
-                <price>399</price>
+                <price>403</price>
                 <currencyId>UAH</currencyId>
                 <categoryId>1</categoryId>
 
                 <picture>https://servicepartner.cn.ua/images/rozetka/canon_703-1.jpg</picture>
                 <picture>https://servicepartner.cn.ua/images/rozetka/canon_703-2.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/canon_703-3.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/canon_703-4.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/canon_703-6.jpg</picture>
 
 
                 <vendor>Service Partner</vendor>
@@ -55,14 +58,15 @@
 
             <offer id="10003" available="true">
                 <name>Картридж Samsung MLT-D117S/Samsung MLT-D108S/XEROX Phaser 3117 совместимый</name>
-                <price>4499</price> <!--TODO-->
+                <price>516</price>
                 <currencyId>UAH</currencyId>
                 <categoryId>1</categoryId>
 
-                <!--                TODO-->
-                <picture>http://abc.ua/upload/iblock/a53/a5391cddb40be91705.jpg</picture>
-                <picture>http://abc.ua/upload/iblock/9d0/9d06805d219fb525fc.jpg</picture>
-
+                <picture>https://servicepartner.cn.ua/images/rozetka/samsung_mlt_d117s-1.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/samsung_mlt_d117s-2.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/samsung_mlt_d117s-3.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/samsung_mlt_d117s-5.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/samsung_mlt_d117s-6.jpg</picture>
 
                 <vendor>Service Partner</vendor>
                 <stock_quantity>10</stock_quantity>
@@ -71,24 +75,55 @@
 <p>Картриджы <b>Service Partner</b> собраны из надежных материалов.</p><p>При аккуратном использовании износ деталей начинается после 4-5 заправки</p>]]></description>
 
 
-                <param name="Совместимые модели картриджей">Samsung MLT-D117S, Samsung MLT-D108S, XEROX Phaser 3117</param>
+                <param name="Совместимые модели картриджей">Samsung MLT-D117S, Samsung MLT-D108S, XEROX Phaser 3117
+                </param>
                 <param name="Ресурс печати">1000 страниц</param><!--todo-->
                 <param name="Совместимые модели притеров">Черный</param><!--todo-->
             </offer>
 
             <offer id="10003" available="true">
-                <price>4499</price> <!--TODO-->
+                <name>Картридж Canon 737/HP Q2612A совместимый</name>
+                <price>456</price>
                 <currencyId>UAH</currencyId>
                 <categoryId>1</categoryId>
 
-                <!--                TODO-->
-                <picture>http://abc.ua/upload/iblock/a53/a5391cddb40be91705.jpg</picture>
-                <picture>http://abc.ua/upload/iblock/9d0/9d06805d219fb525fc.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/canon_737-1.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/canon_737-2.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/canon_737-3.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/canon_737-4.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/canon_737-5.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/canon_737-6.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/canon_737-7.jpg</picture>
 
 
                 <vendor>Service Partner</vendor>
                 <stock_quantity>10</stock_quantity>
+                <description><![CDATA[
+<p>Картриджы <b>Service Partner</b> собраны из надежных материалов.</p><p>При аккуратном использовании износ деталей начинается после 4-5 заправки</p>]]></description>
+
+
+                <param name="Совместимые модели картриджей">Canon 737, HP Q2612A</param>
+                <param name="Ресурс печати">1000 страниц</param><!--todo-->
+                <param name="Совместимые модели притеров">Черный</param><!--todo-->
+            </offer>
+
+            <offer id="10004" available="true">
                 <name>Картридж Brother TN-1095 совместимый</name>
+                <price>390</price>
+                <currencyId>UAH</currencyId>
+                <categoryId>1</categoryId>
+
+                <picture>https://servicepartner.cn.ua/images/rozetka/brother_tn_1095-1.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/brother_tn_1095-2.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/brother_tn_1095-3.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/brother_tn_1095-4.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/brother_tn_1095-5.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/brother_tn_1095-6.jpg</picture>
+
+
+                <vendor>Service Partner</vendor>
+                <stock_quantity>10</stock_quantity>
+
                 <description><![CDATA[
 <p>Картриджы <b>Service Partner</b> собраны из надежных материалов.</p><p>При аккуратном использовании износ деталей начинается после 4-5 заправки</p>]]></description>
 
