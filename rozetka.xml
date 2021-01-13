@@ -25,17 +25,20 @@
                 <picture>https://servicepartner.cn.ua/images/rozetka/canon_703-4.jpg</picture>
                 <picture>https://servicepartner.cn.ua/images/rozetka/canon_703-6.jpg</picture>
 
-
-                <vendor>Service Partner</vendor>
                 <stock_quantity>5</stock_quantity>
 
                 <description><![CDATA[
                     <p>Картриджы <b>Service Partner</b> собраны из надежных материалов.</p><p>При аккуратном использовании износ деталей начинается после 4-5 заправки</p>]]></description>
-                <param name="Совместимые модели картриджей">Canon 703, HP Q2612A</param>
-                <param name="Ресурс печати">1800 страниц</param>
-                <param name="Совместимые модели притеров">
-                    Canon LBP-2900, Canon LBP-3000, HP LaserJet M1005, HP 1010, HP 1012, HP 1015, HP 1018, HP 1020,
-                    HP 1022, HP 3015, HP 3020, HP 3030, HP 3050, HP 3052, HP 3055, HP M1319mfp
+
+                <param name="Страна-производитель">Китай</param>
+                <param name="Цвет">Черный</param>
+                <param name="Ресурс (при 5% заполненности листа)">1800 страниц А4 при 5% заполнении</param>
+                <param name="Тип">Совместимый</param>
+                <param name="Подходит к">
+                    Совместимые модели принтеров: Canon LBP-2900, Canon LBP-3000, HP LaserJet M1005,
+                    HP 1010, HP 1012, HP 1015, HP 1018, HP 1020, HP 1022, HP 3015, HP 3020, HP 3030, HP 3050, HP 3052,
+                    HP 3055, HP M1319mfp
+                    Совместимые модели картриджей: Canon 703, HP Q2612A
                 </param>
             </offer>
 
@@ -46,23 +49,30 @@
                 <categoryId>1</categoryId>
 
                 <picture>https://servicepartner.cn.ua/images/rozetka/canon_737-1.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/canon_737-2.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/canon_737-3.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/canon_737-4.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/canon_737-5.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/canon_737-6.jpg</picture>
+                <picture>https://servicepartner.cn.ua/images/rozetka/canon_737-7.jpg</picture>
 
-                <vendor>Service Partner</vendor>
                 <stock_quantity>5</stock_quantity>
 
                 <description><![CDATA[
 <p>Картриджы <b>Service Partner</b> собраны из надежных материалов.</p><p>При аккуратном использовании износ деталей начинается после 4-5 заправки</p>]]></description>
 
-
-                <param name="Совместимые модели картриджей">Canon 737, HP CF283A</param>
-                <param name="Ресурс печати">1300 страниц</param>
-                <param name="Совместимые модели притеров">
-                    Canon i-SENSYS MF211, Canon i-SENSYS MF212W, Canon i-SENSYS MF216N, Canon i-SENSYS MF217W,
+                <param name="Страна-производитель">Китай</param>
+                <param name="Цвет">Черный</param>
+                <param name="Ресурс (при 5% заполненности листа)">1300 страниц А4 при 5% заполнении</param>
+                <param name="Тип">Совместимый</param>
+                <param name="Подходит к">
+                    Совместимые модели принтеров: Canon i-SENSYS MF211, Canon i-SENSYS MF212W, Canon i-SENSYS MF216N, Canon i-SENSYS MF217W,
                     Canon i-SENSYS MF226DN, Canon i-SENSYS MF229DW, Canon i-SENSYS MF231, Canon i-SENSYS MF232w,
                     Canon i-SENSYS MF237w, Canon i-SENSYS MF244dw, Canon i-SENSYS MF247dw, Canon i-SENSYS MF249dw,
                     LBP151dw LBP151dw, HP LaserJet Pro M125a, HP LaserJet Pro M125nw, HP LaserJet Pro M127fn,
                     HP LaserJet Pro M127fw, HP LaserJet Pro M225dn, HP LaserJet Pro M201dw, HP LaserJet Pro M201n,
                     HP LaserJet Pro M225dw
+                    Совместимые модели картриджей: Canon 737, HP CF283A
                 </param>
             </offer>
 
@@ -78,21 +88,21 @@
                 <picture>https://servicepartner.cn.ua/images/rozetka/samsung_mlt_d117s-5.jpg</picture>
                 <picture>https://servicepartner.cn.ua/images/rozetka/samsung_mlt_d117s-6.jpg</picture>
 
-                <vendor>Service Partner</vendor>
                 <stock_quantity>5</stock_quantity>
 
                 <description><![CDATA[
 <p>Картриджы <b>Service Partner</b> собраны из надежных материалов.</p><p>При аккуратном использовании износ деталей начинается после 4-5 заправки</p>]]></description>
 
-
-                <param name="Совместимые модели картриджей">
-                    Samsung MLT-D117S, Samsung MLT-D108S, XEROX Phaser 3117
-                </param>
-                <param name="Ресурс печати">1700 страниц</param>
-                <param name="Совместимые модели притеров">
-                    Samsung SCX-4650, Samsung SCX-4650N, Samsung SCX-4655, Samsung SCX-4655 Samsung ML-1640,
+                <param name="Страна-производитель">Китай</param>
+                <param name="Цвет">Черный</param>
+                <param name="Ресурс (при 5% заполненности листа)">1700 страниц А4 при 5% заполнении</param>
+                <param name="Тип">Совместимый</param>
+                <param name="Подходит к">
+                    Совместимые модели принтеров: Samsung SCX-4650, Samsung SCX-4650N, Samsung SCX-4655, Samsung SCX-4655 Samsung ML-1640,
                     Samsung ML-1641, Samsung ML-1645, Samsung ML-2240, Samsung ML-2241FN, Samsung ML-2010,
                     XEROX PHASER 3117, XEROX PHASER 3122, XEROX PHASER 3124, XEROX PHASER 3125
+                    Совместимые модели картриджей:
+                    Samsung MLT-D117S, Samsung MLT-D108S, XEROX Phaser 3117
                 </param>
             </offer>
 
@@ -109,18 +119,18 @@
                 <picture>https://servicepartner.cn.ua/images/rozetka/brother_tn_1095-5.jpg</picture>
                 <picture>https://servicepartner.cn.ua/images/rozetka/brother_tn_1095-6.jpg</picture>
 
-
-                <vendor>Service Partner</vendor>
                 <stock_quantity>5</stock_quantity>
 
                 <description><![CDATA[
 <p>Картриджы <b>Service Partner</b> собраны из надежных материалов.</p><p>При аккуратном использовании износ деталей начинается после 4-5 заправки</p>]]></description>
 
-
-                <param name="Совместимые модели картриджей">Brother TN-1095</param>
-                <param name="Ресурс печати">1300 страниц</param>
-                <param name="Совместимые модели притеров">
-                    Brother DCP 1602, Brother HL 1202R, Brother HL 1202, Brother DCP 1602R
+                <param name="Страна-производитель">Китай</param>
+                <param name="Цвет">Черный</param>
+                <param name="Ресурс (при 5% заполненности листа)">1300 страниц А4 при 5% заполнении</param>
+                <param name="Тип">Совместимый</param>
+                <param name="Подходит к">
+                    Совместимые модели принтеров: Brother DCP 1602, Brother HL 1202R, Brother HL 1202, Brother DCP 1602R
+                    Совместимые модели картриджей: Brother TN-1095
                 </param>
             </offer>
         </offers>
