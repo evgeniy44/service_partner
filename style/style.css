@@ -15,6 +15,34 @@ body {
     margin: 0px 20px 20px 0px;
 }
 
+.b1c {
+    background: #1d78cb !important;
+    box-shadow: 0 0 10px #1d78cb !important;
+    padding: 20px !important;
+    margin: 20px !important;
+    font-size: 20px;
+}
+
+.b1c:hover {
+    background: #0f3e68 !important;
+}
+
+.b1c-submit {
+    background: #1d78cb !important;
+    box-shadow: 0 3px 0 #1d78cb !important;
+    color: white !important;
+}
+
+.price-table table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.b1c-container {
+    text-align: center;
+}
+
 @media only screen and (max-width: 768px) {
     .article_image {
         width: 100%;
@@ -290,7 +318,7 @@ img.radius {
 }
 
 .padding-bottom-66 {
-    padding-bottom: 66px;
+    padding-bottom: 30px;
 }
 
 .padding-bottom-70 {
