@@ -26,12 +26,6 @@ jQuery(document).ready(function($){
 				$(".mobile-menu-divider").css("display", "none");
 		});
 	});
-	//header toggle
-	$("#header-top-bar-container").on("click", ".header-toggle", function(event){
-		event.preventDefault();
-		$(this).prev().slideToggle();
-		$(this).toggleClass("active");
-	});
 
 	//parallax
 	if(!navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/))
@@ -48,47 +42,6 @@ jQuery(document).ready(function($){
 	{
 		if(map!=null)
 			map.setCenter(coordinate);
-		$(".testimonials-list").trigger('configuration', ['debug', false, true]);
-
-		if($(".re-smart-column").length && $(".header").width()>462)
-		{
-			var topOfWindow = $(window).scrollTop();
-			$(".re-smart-column").each(function(){
-				var row = $(this).parent();
-				var wrapper = $(this).children().first();
-				var childrenHeight = 0;
-				wrapper.children().each(function(){
-					childrenHeight += $(this).outerHeight(true);
-				});
-				if(childrenHeight<$(window).height() && row.offset().top-20<topOfWindow && row.offset().top-20+row.outerHeight()-childrenHeight>topOfWindow)
-				{
-					wrapper.css({"position": "fixed", "bottom": "auto", "top": "20px", "width": $(this).width() + "px"});
-					$(this).css({"height": childrenHeight+"px"});
-				}
-				else if(childrenHeight<$(window).height() && row.offset().top-20+row.outerHeight()-childrenHeight<=topOfWindow && (row.outerHeight()-childrenHeight>0))
-				{
-					wrapper.css({"position": "absolute", "bottom": "0", "top": (row.outerHeight()-childrenHeight) + "px", "width": "auto"});
-					$(this).css({"height": childrenHeight+"px"});
-				}
-				else if(childrenHeight>=$(window).height() && row.offset().top+20+childrenHeight<topOfWindow+$(window).height() && row.offset().top+20+row.outerHeight()>topOfWindow+$(window).height())
-				{	
-					wrapper.css({"position": "fixed", "bottom": "20px", "top": "auto", "width": $(this).width() + "px"});
-					$(this).css({"height": childrenHeight+"px"});
-				}
-				else if(childrenHeight>=$(window).height() && row.offset().top+20+row.outerHeight()<=topOfWindow+$(window).height() && (row.outerHeight()-childrenHeight>0))
-				{
-					wrapper.css({"position": "absolute", "bottom": "0", "top": (row.outerHeight()-childrenHeight) + "px", "width": "auto"});
-					$(this).css({"height": childrenHeight+"px"});
-				}
-				else
-					wrapper.css({"position": "static", "bottom": "auto", "top": "auto", "width": "auto"});
-			});
-		}
-		if($(".header").width()>300)
-		{
-			if(!$(".header-top-bar").is(":visible"))
-				$(".header-toggle").trigger("click");
-		}
 	}
 	$(window).resize(windowResize);
 	window.addEventListener('orientationchange', windowResize);	
@@ -125,7 +78,7 @@ jQuery(document).ready(function($){
 					$(this).css({"height": childrenHeight+"px"});
 				}
 				else if(childrenHeight>=$(window).height() && row.offset().top+20+childrenHeight<topOfWindow+$(window).height() && row.offset().top+20+row.outerHeight()>topOfWindow+$(window).height())
-				{	
+				{
 					wrapper.css({"position": "fixed", "bottom": "20px", "top": "auto", "width": $(this).width() + "px"});
 					$(this).css({"height": childrenHeight+"px"});
 				}
@@ -147,7 +100,7 @@ jQuery(document).ready(function($){
 						$(this).removeClass("move");
 				}
 			}
-			else if(elementPos<topOfWindow+$(window).height()-20) 
+			else if(elementPos<topOfWindow+$(window).height()-20)
 			{
 				if($(this).hasClass("number") && !$(this).hasClass("progress") && $(this).is(":visible"))
 				{

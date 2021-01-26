@@ -495,7 +495,7 @@ h6.box-header:after {
 }
 
 .header-top-bar-container .header-toggle {
-    display: none;
+    display: block;
     clear: both;
     text-align: center;
     color: #444;
@@ -527,6 +527,7 @@ h6.box-header:after {
     width: 1170px;
     margin-left: auto;
     margin-right: auto;
+    display: block;
 }
 
 .header .logo {
@@ -1274,14 +1275,6 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
     border-color: #F4BC16;
 }
 
-/* --- parallax --- */
-.parallax-1 {
-    background-image: url('../images/samples/1920x1200/image_01.jpg');
-}
-
-.parallax-2 {
-    background-image: url('../images/samples/1920x1200/image_02.jpg');
-}
 
 .parallax,
 .parallax h2,
@@ -1680,38 +1673,6 @@ span.odometer.number:after {
     float: left;
     width: 90px;
     height: 90px;
-}
-
-.avatar-1 {
-    background-image: url("../images/samples/90x90/users/image_01.png");
-}
-
-.avatar-2 {
-    background-image: url("../images/samples/90x90/users/image_02.png");
-}
-
-.avatar-3 {
-    background-image: url("../images/samples/90x90/users/image_03.png");
-}
-
-.avatar-4 {
-    background-image: url("../images/samples/90x90/users/image_04.png");
-}
-
-.avatar-5 {
-    background-image: url("../images/samples/90x90/users/image_05.png");
-}
-
-.avatar-6 {
-    background-image: url("../images/samples/90x90/users/image_06.png");
-}
-
-.avatar-7 {
-    background-image: url("../images/samples/90x90/users/image_07.png");
-}
-
-.avatar-8 {
-    background-image: url("../images/samples/90x90/users/image_08.png");
 }
 
 .posted-by abbr {
@@ -2614,15 +2575,6 @@ li.template-bullet:before {
     color: #444;
 }
 
-/* --- prettyPhoto --- */
-/*div.pp_default .pp_nav
-{
-	margin-top: 9px;
-}
-div.pp_default .pp_close
-{
-	margin-top: 7px;
-}*/
 div.pp_default .pp_content_container .pp_left,
 div.pp_default .pp_content_container .pp_right,
 div.pp_default .pp_top .pp_left,

@@ -762,7 +762,7 @@
 	}
 	.header-top-bar
 	{
-		display: none;
+		display: block;
 		padding-top: 10px;
 	}
 	.header-top-bar-container .header-toggle
@@ -982,10 +982,10 @@
 	{
 		clear: both;
 	}
-	.header-top-bar .contact-details
-	{
-		display: block;
-	}
+	/*.header-top-bar .contact-details*/
+	/*{*/
+	/*	display: block;*/
+	/*}*/
 	/* --- search --- */
 	.search
 	{
