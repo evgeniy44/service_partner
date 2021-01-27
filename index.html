@@ -54,7 +54,6 @@
     <script>
         $(function () {
             $('#header-index').attr("class", "selected");
-            $("#proposition-container").load("proposition.html");
         });
     </script>
 
@@ -109,245 +108,131 @@
 </head>
 <body>
 <div class="site-container">
-    <div id="header-top-bar-container" class="header-top-bar-container clearfix"><div class="header-top-bar">
-        <ul class="contact-details clearfix">
-            <li class="template-phone">
-                <a href="tel:+38068404272">(068)-40-42-762</a> или <a href="tel:+380990021962">(099)-00-21-962</a>
-            </li>
-            <li class="template-mail">
-                <a href="mailto:servicepartnerche@gmail.com">servicepartnerche@gmail.com</a>
-            </li>
-            <li class="template-clock">
-                Пон - Чет: 09.00 - 18.00\
-                Пят: 09:00-17.00\
-                Суб: 11:00-14.00
-            </li>
-        </ul>
-        <ul class="social-icons">
-            <li>
-                <a target="_blank" href="https://www.facebook.com/Service-Partner-102331748193651" class="social-facebook"
-                   title="facebook"></a>
-            </li>
-        </ul>
-    </div>
-        <a href="#" class="header-toggle template-arrow-up"></a>
+    <!--#include virtual="top_header.html" -->
+    <!--#include virtual="proposition-new.html" -->
+    <!--#include virtual="header.html" -->
+    <div class="theme-page">
+        <div class="clearfix">
+            <div id="main_page_content" class="row full-width gray page-padding-top-section">
+                <div class="row">
+                    <ul class="services-list clearfix page-margin-top">
+                        <li class="services-list-item">
+                            <img src="images/samples/390x260/image_01.jpg" alt="Заправка картриджей"
+                                 align="middle"/>
+                            <h4 class="box-header">Заправка картриджей</h4>
+                        </li>
+                        <li class="services-list-item">
+                            <img src="images/samples/390x260/image_02.jpg" alt="Ремонт принтеров и МФУ"/>
+                            <h4 class="box-header">Ремонт принтеров и МФУ</h4>
+                        </li>
+                        <li class="services-list-item">
+                            <img src="images/samples/390x260/image_03.jpg" alt="Ремонт компьютерной техники"/>
+                            <h4 class="box-header">Ремонт компьютерной техники</h4>
+                        </li>
+                    </ul>
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173068375-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
+                    <h2 class="box-header">Добро пожаловать</h2>
+                    <p class="description align-justify">Обладатели принтеров, МФУ и многой другой оргтехники
+                        зачастую небрежно относятся к поломкам своих приборов или каким-то непредвиденным сбоям в их
+                        работе. Поэтому, насмотревшись видеоуроки или посоветовавшись со знакомыми, они пытаются
+                        сами настроить устройство. Чаще всего владельцы оргтехники стремятся заправить картридж для
+                        принтера, не имея никаких практических навыков или опыта в этом деле. Такие действия ни к
+                        чему не приводят, и в лучшем случае обладатели МФУ все равно обращаются за помощью к
+                        профессионалам. В худшем же, это приводит к безвозвратной поломке всего устройства.</p>
+                    <p class="description align-justify">Услуги по заправке картриджей от специалистов помогут
+                        сделать две вещи: избежать подобных инцидентов в дальнейшем, сэкономить деньги и время.
+                        Определяясь с сервисным центром, необходимо учитывать несколько факторов. Следует обратить
+                        внимание на квалифицированность и опыт специалистов, а также на стоимость услуг, которые
+                        предоставляются. Заправка картриджей в Чернигове в нашем сервисном центре гарантирует
+                        высокое качество работы и приемлемую стоимость.</p>
+                    <h2>Преимущества нашей компании</h2>
+                    <p class="description align-justify">Мы внедрили систему &laquo;вечный картридж&raquo;. Таким
+                        образом, заправка тонера в картридж происходит на постоянной основе по четко установленной
+                        стоимости. Такая система является очень популярной, и она обладает большим количеством
+                        следующих преимуществ:</p>
+                    <ul class="description">
+                        <li>сбережение средств примерно на 30-35%;</li>
+                        <li>качество печати сохраняется в полном объеме;</li>
+                        <li>гарантия на весь период использования;</li>
+                        <li>значительная экономия времени клиентов.</li>
+                    </ul>
+                    <p class="description align-justify">Кроме того, во время смены деталей картриджа, мы не
+                        используем аксессуары низкой стоимости, включая тонеры. Ведь у нас представлены только
+                        лучшие производители.</p>
+                    <p class="description align-justify">Заправка принтера &ndash; это не единственная услуга,
+                        которая предоставляется нашей компанией. Мы предлагаем огромное количество дополнительных.
+                        Вам не придется искать несколько сервисных центров или точек по всему городу. Также хочется
+                        отметить, что у нас продаются картриджи собственного производства. Они отличаются отменным
+                        качеством сборки, прочностью и надежностью.</p>
+                    <h2>Услуги и особенности Service Partner</h2>
+                    <p class="description align-justify">Зарядка картриджей принтера является основной услугой нашей
+                        компании. Помимо этого, мы предоставляем еще и широкий спектр сопутствующих предложений:</p>
+                    <ul class="description">
+                        <li>грамотная консультация во время покупки техники для печати без дополнительной платы;
+                        </li>
+                        <li>оказание ремонтных услуг для компьютеров, мониторов, ноутбуков;</li>
+                        <li>продажа аксессуаров и расходных материалов;</li>
+                        <li>ремонт лазерных, струйных, цветных принтеров всех моделей;</li>
+                        <li>продажа офисной техники по рыночной цене;</li>
+                        <li>обслуживание ризографов и плоттеров.</li>
+                    </ul>
+                    <p class="description align-justify">Зарядка картриджей принтера является основной услугой нашей
+                        компании. Помимо этого мы предоставляем еще и широкий спектр сопутствующих предложений:</p>
+                    <ul class="description">
+                        <li>грамотная консультация во время покупки техники для печати без дополнительной платы;
+                        </li>
+                        <li>оказание ремонтных услуг для компьютеров, мониторов, ноутбуков;</li>
+                        <li>продажа аксессуаров и расходных материалов;</li>
+                        <li>ремонт лазерных, струйных, цветных принтеров всех моделей;</li>
+                        <li>продажа офисной техники по рыночной цене;</li>
+                        <li>обслуживание ризографов и плоттеров.</li>
+                    </ul>
+                    <p class="description align-justify">Ни один офис не может обойтись без принтера и прочей
+                        оргтехники. Устройства для печати обычно ломаются в самый неподходящий момент, также как и
+                        чернила заканчиваются всегда не вовремя. В этом случае компания Service Partner в Чернигове
+                        придет вам на помощь, оказав такую услугу, как срочная заправка картриджей.</p>
+                    <p class="description align-justify">У нас работают только опытные мастера со стажем. Они
+                        профессионально отремонтируют и настроят любую технику. Мы предоставляем официальную
+                        гарантию не только на заправку картриджей, но и на техническое обслуживание. Цена на наши
+                        услуги рыночная, без наценок. В Чернигове работают наши партнеры, которые точно так же решат
+                        любую проблему срочно или в обычном порядке.</p>
 
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-
-            gtag('js', new Date());
-
-            gtag('config', 'UA-173068375-1');
-        </script></div>
-    <div id="proposition-container"></div>
-
-    <div class="header-container">
-        <!--<div class="header-container sticky">-->
-        <div id="header"><div class="vertical-align-table column-1-1">
-            <div class="header clearfix">
-                <div class="logo vertical-align-cell">
-                    <h1>
-                        <a href="#"><img src="images/logo.jpg"/></a>
-                    </h1>
-                </div>
-                <a href="#" class="mobile-menu-switch vertical-align-cell">
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                </a>
-                <div class="menu-container clearfix vertical-align-cell">
-                    <nav>
-                        <ul class="sf-menu">
-                            <li id="header-index">
-                                <a href="/" title="Home">
-                                    Главная
-                                </a>
-                            </li>
-                            <li id="header-statii">
-                                <a href="statii.html">
-                                    Статьи
-                                </a>
-                            </li>
-                            <li id="header-uslugi">
-                                <a href="uslugi.html">
-                                    Услуги и цена
-                                </a>
-                            </li>
-                            <li id="header-prodag">
-                                <a href="prodag.html">
-                                    Продажа картриджей
-                                </a>
-                            </li>
-                            <li id="header-contact" class="left-flyout">
-                                <a href="contact.html">
-                                    Контакты
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="mobile-menu-container">
-                        <div class="mobile-menu-divider"></div>
-                        <nav>
-                            <ul class="mobile-menu">
-                                <li class="selected">
-                                    <a href="/">
-                                        Главная
-                                    </a>
-                                </li>
+                    <div class="row page-margin-top">
+                        <div class="column column-1-2">
+                            <ul class="features-list big">
                                 <li>
-                                    <a href="statii.html">
-                                        Статьи
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="uslugi.html">
-                                        Услуги и цена
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="prodag.html">
-                                        Продажа картриджей
-                                    </a>
-                                </li>
-                                <li class="left-flyout">
-                                    <a href="contact.html">
-                                        Контакты
-                                    </a>
+                                    <div></div>
+                                    <h4 class="box-header page-margin-top">Обращаясь к нам, вы получаете:</h4>
+                                    <p class="description t1">• Помощь и консультацию мастеров, ремонтирующих и
+                                        настраивающих оргтехнику более 9 лет.</p>
+                                    <p class="description t1">• Обязательную гарантию как на обслуживание/заправку
+                                        картриджей, так и на ремонт огромного перечня оргтехники.</p>
+                                    <p class="description t1">• Конкурентоспособные цены на услуги. Цены на заправку
+                                        картриджа начинаются от 80 грн.</p>
                                 </li>
                             </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div></div>
-        <!-- Slider Revolution -->
+                        </div>
 
-        <div class="theme-page">
-            <div class="clearfix">
-                <div id="main_page_content" class="row full-width gray page-padding-top-section">
-                    <div class="row">
-                        <ul class="services-list clearfix page-margin-top">
-                            <li class="services-list-item">
-                                <img src="images/samples/390x260/image_01.jpg" alt="Заправка картриджей" align="middle"/>
-                                <h4 class="box-header">Заправка картриджей</h4>
-                            </li>
-                            <li class="services-list-item">
-                                <img src="images/samples/390x260/image_02.jpg" alt="Ремонт принтеров и МФУ"/>
-                                <h4 class="box-header">Ремонт принтеров и МФУ</h4>
-                            </li>
-                            <li class="services-list-item">
-                                <img src="images/samples/390x260/image_03.jpg" alt="Ремонт компьютерной техники"/>
-                                <h4 class="box-header">Ремонт компьютерной техники</h4>
-                            </li>
-                        </ul>
-
-                        <h2 class="box-header">Добро пожаловать</h2>
-                        <p class="description align-justify">Обладатели принтеров, МФУ и многой другой оргтехники
-                            зачастую небрежно относятся к поломкам своих приборов или каким-то непредвиденным сбоям в их
-                            работе. Поэтому, насмотревшись видеоуроки или посоветовавшись со знакомыми, они пытаются
-                            сами настроить устройство. Чаще всего владельцы оргтехники стремятся заправить картридж для
-                            принтера, не имея никаких практических навыков или опыта в этом деле. Такие действия ни к
-                            чему не приводят, и в лучшем случае обладатели МФУ все равно обращаются за помощью к
-                            профессионалам. В худшем же, это приводит к безвозвратной поломке всего устройства.</p>
-                        <p class="description align-justify">Услуги по заправке картриджей от специалистов помогут
-                            сделать две вещи: избежать подобных инцидентов в дальнейшем, сэкономить деньги и время.
-                            Определяясь с сервисным центром, необходимо учитывать несколько факторов. Следует обратить
-                            внимание на квалифицированность и опыт специалистов, а также на стоимость услуг, которые
-                            предоставляются. Заправка картриджей в Чернигове в нашем сервисном центре гарантирует
-                            высокое качество работы и приемлемую стоимость.</p>
-                        <h2>Преимущества нашей компании</h2>
-                        <p class="description align-justify">Мы внедрили систему &laquo;вечный картридж&raquo;. Таким
-                            образом, заправка тонера в картридж происходит на постоянной основе по четко установленной
-                            стоимости. Такая система является очень популярной, и она обладает большим количеством
-                            следующих преимуществ:</p>
-                        <ul class="description">
-                            <li>сбережение средств примерно на 30-35%;</li>
-                            <li>качество печати сохраняется в полном объеме;</li>
-                            <li>гарантия на весь период использования;</li>
-                            <li>значительная экономия времени клиентов.</li>
-                        </ul>
-                        <p class="description align-justify">Кроме того, во время смены деталей картриджа, мы не
-                            используем аксессуары низкой стоимости, включая тонеры. Ведь у нас представлены только
-                            лучшие производители.</p>
-                        <p class="description align-justify">Заправка принтера &ndash; это не единственная услуга,
-                            которая предоставляется нашей компанией. Мы предлагаем огромное количество дополнительных.
-                            Вам не придется искать несколько сервисных центров или точек по всему городу. Также хочется
-                            отметить, что у нас продаются картриджи собственного производства. Они отличаются отменным
-                            качеством сборки, прочностью и надежностью.</p>
-                        <h2>Услуги и особенности Service Partner</h2>
-                        <p class="description align-justify">Зарядка картриджей принтера является основной услугой нашей
-                            компании. Помимо этого, мы предоставляем еще и широкий спектр сопутствующих предложений:</p>
-                        <ul class="description">
-                            <li>грамотная консультация во время покупки техники для печати без дополнительной платы;
-                            </li>
-                            <li>оказание ремонтных услуг для компьютеров, мониторов, ноутбуков;</li>
-                            <li>продажа аксессуаров и расходных материалов;</li>
-                            <li>ремонт лазерных, струйных, цветных принтеров всех моделей;</li>
-                            <li>продажа офисной техники по рыночной цене;</li>
-                            <li>обслуживание ризографов и плоттеров.</li>
-                        </ul>
-                        <p class="description align-justify">Зарядка картриджей принтера является основной услугой нашей
-                            компании. Помимо этого мы предоставляем еще и широкий спектр сопутствующих предложений:</p>
-                        <ul class="description">
-                            <li>грамотная консультация во время покупки техники для печати без дополнительной платы;
-                            </li>
-                            <li>оказание ремонтных услуг для компьютеров, мониторов, ноутбуков;</li>
-                            <li>продажа аксессуаров и расходных материалов;</li>
-                            <li>ремонт лазерных, струйных, цветных принтеров всех моделей;</li>
-                            <li>продажа офисной техники по рыночной цене;</li>
-                            <li>обслуживание ризографов и плоттеров.</li>
-                        </ul>
-                        <p class="description align-justify">Ни один офис не может обойтись без принтера и прочей
-                            оргтехники. Устройства для печати обычно ломаются в самый неподходящий момент, также как и
-                            чернила заканчиваются всегда не вовремя. В этом случае компания Service Partner в Чернигове
-                            придет вам на помощь, оказав такую услугу, как срочная заправка картриджей.</p>
-                        <p class="description align-justify">У нас работают только опытные мастера со стажем. Они
-                            профессионально отремонтируют и настроят любую технику. Мы предоставляем официальную
-                            гарантию не только на заправку картриджей, но и на техническое обслуживание. Цена на наши
-                            услуги рыночная, без наценок. В Чернигове работают наши партнеры, которые точно так же решат
-                            любую проблему срочно или в обычном порядке.</p>
-
-                        <div class="row page-margin-top">
-                            <div class="column column-1-2">
-                                <ul class="features-list big">
-                                    <li>
-                                        <div></div>
-                                        <h4 class="box-header page-margin-top">Обращаясь к нам, вы получаете:</h4>
-                                        <p class="description t1">• Помощь и консультацию мастеров, ремонтирующих и
-                                            настраивающих оргтехнику более 9 лет.</p>
-                                        <p class="description t1">• Обязательную гарантию как на обслуживание/заправку
-                                            картриджей, так и на ремонт огромного перечня оргтехники.</p>
-                                        <p class="description t1">• Конкурентоспособные цены на услуги. Цены на заправку
-                                            картриджа начинаются от 80 грн.</p>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div class="column column-1-2">
-                                <ul class="features-list big">
-                                    <li>
-                                        <div></div>
-                                        <h4 class="box-header page-margin-top">Наши услуги</h4>
-                                        <p>• Бесплатная консультация при покупке печатающей техники.</p>
-                                        <p>• Ремонт компьютеров, ноутбуков и мониторов.</p>
-                                        <p>• Ремонт и настройка ризографов, плоттеров, копиров.</p>
-                                        <p>• Продажа расходных материалов и сопутствующих аксессуаров.</p>
-                                        <p>• Заправка и ремонт картриджей.</p>
-                                        <p>• Ремонт МФУ, струйных и лазерных принтеров всех модификаций.</p>
-                                        <p>• Реализация офисной техники по приемлемой стоимости.</p>
-                                    </li>
-                                </ul>
-                            </div>
+                        <div class="column column-1-2">
+                            <ul class="features-list big">
+                                <li>
+                                    <div></div>
+                                    <h4 class="box-header page-margin-top">Наши услуги</h4>
+                                    <p>• Бесплатная консультация при покупке печатающей техники.</p>
+                                    <p>• Ремонт компьютеров, ноутбуков и мониторов.</p>
+                                    <p>• Ремонт и настройка ризографов, плоттеров, копиров.</p>
+                                    <p>• Продажа расходных материалов и сопутствующих аксессуаров.</p>
+                                    <p>• Заправка и ремонт картриджей.</p>
+                                    <p>• Ремонт МФУ, струйных и лазерных принтеров всех модификаций.</p>
+                                    <p>• Реализация офисной техники по приемлемой стоимости.</p>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div id="partners"><div class="row gray full-width page-padding-top-section padding-bottom-6">
+            </div>
+            <div id="partners">
+                <div class="row gray full-width page-padding-top-section padding-bottom-6">
                     <div class="row">
                         <h2 class="box-header">Наши партнеры</h2>
                         <div class="row page-margin-top-section padding-bottom-66">
@@ -356,7 +241,8 @@
                                 <div class="column column-1-3">
                                     <ul class="features-list big">
                                         <li class="sl-large-house">
-                                            <h4 class="box-header page-margin-top">ТОВ Чернигов-Кабель/г. Чернигов/ул.
+                                            <h4 class="box-header page-margin-top">ТОВ Чернигов-Кабель/г.
+                                                Чернигов/ул.
                                                 Мстиславская, 15</h4>
                                         </li>
                                     </ul>
@@ -382,48 +268,12 @@
                             </div>
                         </div>
                     </div>
-                </div></div>
+                </div>
             </div>
         </div>
-
-        <div id="why-us"><div class="row yellow full-width padding-top-bottom-30">
-            <div class="row">
-                <div class="column column-1-3">
-                    <ul class="contact-details-list">
-                        <li class="sl-small-wrench ">
-                            <p>
-                                Гарантия на все виды работ.
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="column column-1-3">
-                    <ul class="contact-details-list">
-                        <li class="sl-small-wallet">
-                            <p>Лучшая цена в Чернигове.
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="column column-1-3">
-                    <ul class="contact-details-list">
-                        <li class="sl-small-clock">
-                            <p>
-                                Быстрое обслуживание.</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div></div>
-        <div id="copyright"><div class="row align-center padding-top-bottom-30">
-    <span class="copyright">
-        © Copyright 2020.
-        <a href="https://servicepartner.cn.ua" title="Заправка картриджей,ремонт принтеров." target="_blank">
-            Service partner.
-        </a>
-    </span>
-        </div></div>
     </div>
+    <!--#include virtual="why_us.html" -->
+    <!--#include virtual="copyright.html" -->
     <a href="#top" class="scroll-top animated-element template-arrow-up" title="Scroll to top"></a>
 </div>
 </body>
