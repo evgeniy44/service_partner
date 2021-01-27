@@ -47,6 +47,10 @@ body {
     .article_image {
         width: 100%;
     }
+
+    .map-container {
+        width: 100%;
+    }
 }
 
 .services-list-item {
